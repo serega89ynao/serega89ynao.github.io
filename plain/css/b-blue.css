@@ -1,0 +1,28 @@
+.main-text span,
+.main-button a:hover,
+.section-header span,
+.content-section-1 span,
+.item-list span,
+.price-btn a,
+.price-area:hover .rate-item p,
+.contact-item span,
+.soc-bar a:hover {
+	color: #0000ff;
+}
+
+.main-button a,
+.circle,
+.price-area:hover .price-item,
+.price-area:hover .price-btn a {
+	background: #0000ff;
+}
+
+.main-button a,
+.price-area:hover .price-btn a {
+	border: 1px solid #0000ff;
+}
+
+.rectangle,
+.rectangle1 {
+	border-bottom: 2px solid #0000ff;
+}

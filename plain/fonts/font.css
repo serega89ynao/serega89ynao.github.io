@@ -1,0 +1,17 @@
+@font-face{
+	font-family: 'SoursSans';
+	src: url('../fonts/sourssans/SourceSansPro-Bold.otf');
+	src: url('../fonts/sourssans/SourceSansPro-Light.otf');
+	src: url('../fonts/sourssans/SourceSansPro-Regular.otf');
+	src: url('../fonts/sourssans/SourceSansPro-Bold.ttf');
+	src: url('../fonts/sourssans/SourceSansPro-Light.ttf');
+	src: url('../fonts/sourssans/SourceSansPro-Regular.otf');
+	src: url('../fonts/sourssans/SourceSansPro-Bold.otf.woff');
+	src: url('../fonts/sourssans/SourceSansPro-Light.otf.woff');
+	src: url('../fonts/sourssans/SourceSansPro-Regular.otf.woff');
+	src: url('../fonts/sourssans/SourceSansPro-Bold.ttf.woff');
+	src: url('../fonts/sourssans/SourceSansPro-Light.ttf.woff');
+	src: url('../fonts/sourssans/SourceSansPro-Regular.ttf.woff');
+	font-weight: normal;
+	font-style: normal;
+}

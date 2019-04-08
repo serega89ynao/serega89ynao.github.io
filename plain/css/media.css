@@ -1,0 +1,89 @@
+@media (max-width: 992px) {
+	body { font-size: 1.4rem; }
+
+	.main-text h1 { 
+		font-size: 3.5rem; 
+		margin: 3rem 0;
+	}
+
+	.testimonials-item p { font-size: 1.8rem; }
+
+	.mt-lg-15 { margin-top: 1.5rem; }
+
+	.mb-lg-15 { margin-bottom: 1.5rem; }
+
+	.hidden-md { display: none; }
+
+	.toggles { display: block; }
+
+	.main { 
+		height: 100vh; 
+		overflow: visible;
+		padding: 0 1rem;
+	}
+
+	.site-branding nav ul {
+		display: none;
+		position: absolute;
+		left: 0;
+		top: 15rem;
+		padding: 3rem 0;
+		width: 100%;
+		background: #F50F72;
+		z-index: 999;
+	}
+
+	.site-branding nav li {
+		padding: 1rem 3rem 1rem;
+		color: #fff;
+	}
+
+	.main-button a {
+		width: 16rem;
+		height: 4rem;
+	}
+
+	form { padding: 0 2rem; }
+
+	.form-box { padding: 4rem 3rem; }
+
+	textarea {
+		height: 20rem;
+		margin-top: 1rem;
+	}
+
+}
+
+@media (max-width: 767px) {
+	.main-text h1 { 
+		font-size: 2.5rem; 
+		margin: 2rem 0;
+	}
+
+	.section-header h2 { font-size: 2.5rem; }
+
+	.content-section-1 h3 { font-size: 2rem; }
+
+	.main-text p { display: none; }
+
+	.img-box { text-align: center; }
+
+	.img-resize {
+		height: auto;
+		width: 300px;
+	}
+
+	form {
+		padding: 0;
+		margin-bottom: 0;
+	}
+
+	.section-map { height: 100vh; }
+}
+
+@media (max-width: 320px) {
+	.main-button .btn-1 {
+		margin-right: 0;
+		margin-bottom: 1rem;
+	}
+}
