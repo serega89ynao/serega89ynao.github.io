@@ -1,0 +1,369 @@
+html { font-size: 10px; }
+
+body {
+      font-size: 1.6rem;
+      font-family: sans-serif;
+      margin: 0;
+      color: #000;
+      line-height: 1.5;
+}
+
+ul,ol {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+}
+
+a { text-decoration: none; }
+
+*,
+*:after,
+*:before { box-sizing: border-box; }
+
+.h-100 { height: 100% !important; }
+.w-100 { width: 100% !important; }
+
+.m-0 { margin: 0 !important; }
+
+.text-center { text-align: center; }
+
+.img-responsive {
+      max-width: 100%;
+      height: auto;
+}
+
+.hidden {
+      visibility: hidden;
+}
+
+.position-absolute { position: absolute; }
+.position-relative { position: relative; }
+
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+.center {
+  display: -webkit-flex;
+  display:    -moz-flex;
+  display:     -ms-flex;
+  display:      -o-flex;
+  display:         flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.column {
+      flex-direction:column
+}
+
+.block {
+      display: block;
+}
+
+::-webkit-input-placeholder { 
+      text-transform: uppercase;
+      font-weight: bold;
+}
+::-ms-input-placeholder { 
+      text-transform: uppercase;
+      font-weight: bold;
+}
+::-ms-input-placeholder { 
+      text-transform: uppercase;
+      font-weight: bold;
+}
+::placeholder { 
+      text-transform: uppercase;
+      font-weight: bold;
+} 
+
+/*common.css*/
+.soc-nav {
+      position: fixed;
+      left: 0;
+      top: 50%;
+      width: 40px;
+      transform: translateY(-50%);
+}
+
+.soc-nav a {
+      display: block;
+      width: 40px;
+      height: 40px;
+}
+
+.ya-share2__badge,
+.ya-share2__icon {
+      width: 40px !important;
+      height: 40px !important;
+}
+
+.soc-nav img {
+      width: 40px;
+      transition: .3s;
+}
+
+.soc-nav a:hover img {
+      opacity: .5;
+}
+
+.main-header {
+  height: 400px;
+  background: url(../images/1.jpg) 0 50% no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.main-header h1 {
+  font-size: 4rem;
+  z-index: 999;
+  letter-spacing: 3px;
+  /*text-transform: capitalize;*/
+  color: #fff;
+}
+
+.main-header h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  margin: 0;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.main-header h1 a {
+      color: inherit;
+}
+
+.home {
+      font-size: 2rem;
+      bottom: 0;
+      left: 50%;
+      color: #fff;
+      z-index: 999;
+      transform: translateY(-50%);
+}
+
+.overlay {
+      background: rgba(0, 0, 0, .7);
+}
+
+.title-box {
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      transform: translateY(-50%);
+      text-align: center;
+}
+
+.registration-btn {
+      display: -webkit-inline-flex;
+      display: -moz-inline-flex;
+      display: -ms-inline-flex;
+      display: -o-inline-flex;
+      display: inline-flex;
+      -ms-align-items: center;
+      align-items: center;
+      justify-content: center;
+      width: 200px;
+      height: 90px;
+}
+
+.main-nav {
+      height: 40px;
+}
+
+.main-nav h3 {
+      display: none;
+}
+
+.container-nav a:hover .nav-item,
+.registration-btn:hover .nav-item {
+ box-shadow: inset 0 0 8px 1px rgba(0,0,0,.7);
+}
+
+.nav-item {
+      color: #fff;
+      font-weight: bold;
+      transition: .2s;
+}
+
+.admitad {
+      background: #6B31BD;
+}
+
+.commers {
+      background: #DD1F26;
+}
+
+.commers img,
+.admitad img {
+      height: 30px;
+      margin-right: .5rem;
+}
+
+.content {
+      font-size: 2rem;
+}
+
+.video-container {
+      width: 100%;
+      height: auto;
+}
+
+@media (max-width: 991px) {
+      .video-container {
+            /*height: auto;*/
+      }
+}
+
+video {
+      width: 100%;
+      height: 100%;
+}
+
+.autor-video-chanel {
+      font-size: 1.6rem;
+}
+
+footer {
+      width: 100%;
+      /*height: 200px;*/
+      padding-bottom: .5rem;
+      background: #000;
+      margin-top: 100px;
+}
+
+.footer-soc-nav {
+      margin-top: 4rem;
+      visibility: hidden;
+}
+
+.footer-soc-nav a {
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      margin: 0 .3rem;
+}
+
+.footer-soc-nav img {
+      width: 35px;
+}
+
+.copy p {
+      font-size: 1.3rem;
+      color: #fff;
+}
+
+
+.admitad-header {
+      background: url(../images/4.jpg) 50% 50% no-repeat;
+}
+
+.epn-header {
+      background: url(../images/5.jpg) 50% 50% no-repeat;
+}
+
+.title-ad {
+      text-shadow: 0 0 14px black, 0 0 3px blue;
+}
+
+.this-is { margin-top: 5rem; }
+
+/*.this-is-epn-text { font-size: 1.8rem; }*/
+
+.advantages { margin-top: 5rem; }
+
+.advantages-icon { width: 200px; }
+
+.advantages-icon-1 { width: 120px; }
+
+.advantages-epn-icon img { width: 100%; }
+
+.advantages-item-epn { margin: 5rem 0; }
+
+.epn-1 { 
+      position: relative;
+      background: url(../images/rocket.png) left bottom no-repeat #fa8787; 
+      height: 300px;
+}
+
+.epn-2 {
+      position: relative;
+     background: url(../images/man.png) left bottom no-repeat #e76565; 
+     height: 300px;
+}
+
+.epn-3 {
+      position: relative;
+     background: url(../images/money.png) left bottom no-repeat #e34e4e; 
+     height: 300px;
+}
+
+.epn-1 p,.epn-2 p,.epn-3 p {
+      position: absolute;
+      left: 1.5rem;
+      font-size: 3rem;
+      font-weight: bold;
+      color: #fff;
+      opacity: .7;
+}
+
+.dfgh {
+      font-weight: bold;
+      width: 300px;
+      height: 100px;
+      color: #fff;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5rem;
+}
+
+.dfgh span { transition: .3s; }
+
+.dfgh:hover {
+     box-shadow: inset 0 0 8px 1px rgba(0,0,0,.7);
+}
+
+.instruments { margin-top: 5rem; }
+
+.tool-desc { font-size: 1.6rem; }
+
+/*Экстрамалые девайсы («телефоны», < 576px)*/
+@media (max-width: 575.98px) {
+      .registration-btn {
+            font-size: 1.4rem;
+            width: 150px;
+            height: 50px;
+      }
+
+      .main-header h1 { font-size: 2rem; }
+      .main-header h2 { font-size: 1.2rem; }
+      .offer-logo { display: none; }
+      .content { font-size: 1.5rem; }
+      .advantages-icon { width: 150px;margin-bottom: 8rem; }
+      .advantages-icon-1 { width: 80px;margin-bottom: 5rem; }
+      .advantages-item-epn { margin: 0; }
+}
+
+/*Малые девайсы («ландшафтные», < 768px)*/
+@media (max-width: 767.98px) {
+      .soc-nav { display: none !important; }
+      .footer-soc-nav { visibility: visible; }
+      .advantages-icon { width: 150px;margin-bottom: 8rem; }
+      .advantages-icon-1 { width: 80px;margin-bottom: 5rem; }
+      .advantages-item-epn { margin: 3rem 0; }
+}
+
+/*Средние девайсы («таблетки», < 992px) */
+@media (max-width: 991.98px) { 
+      footer { margin-top: 50px; }
+}
+
+/*Большие девайсы (большие десктопы, < 1200px)*/
+@media (max-width: 1199.98px) {  }
+
